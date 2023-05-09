@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="start node" type="GoApplicationRunConfiguration" factoryName="Go Application" folderName="start">
+    <module name="elysiumCore" />
+    <working_directory value="$PROJECT_DIR$" />
+    <go_parameters value="-i" />
+    <parameters value="start" />
+    <kind value="FILE" />
+    <package value="github.com/merlin-network/elysiumCore" />
+    <directory value="$PROJECT_DIR$/" />
+    <filePath value="$PROJECT_DIR$/cmd/elysiumCore/main.go" />
+    <output_directory value="$PROJECT_DIR$/build" />
+    <method v="2" />
+  </configuration>
+</component>
