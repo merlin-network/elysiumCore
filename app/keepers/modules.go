@@ -33,8 +33,8 @@ import (
 	"github.com/persistenceOne/persistence-sdk/v2/x/lsnative/slashing"
 	"github.com/persistenceOne/persistence-sdk/v2/x/lsnative/staking"
 	"github.com/persistenceOne/persistence-sdk/v2/x/oracle"
-	"github.com/persistenceOne/pstake-native/v2/x/lscosmos"
-	lscosmosclient "github.com/persistenceOne/pstake-native/v2/x/lscosmos/client"
+	"github.com/persistenceOne/estake-native/v2/x/lscosmos"
+	lscosmosclient "github.com/persistenceOne/estake-native/v2/x/lscosmos/client"
 )
 
 // AppModuleBasics defines the module BasicManager is in charge of setting up basic,
@@ -58,7 +58,7 @@ var AppModuleBasics = []module.AppModuleBasic{
 			ibcclient.UpdateClientProposalHandler,
 			ibcclient.UpgradeProposalHandler,
 			lscosmosclient.MinDepositAndFeeChangeProposalHandler,
-			lscosmosclient.PstakeFeeAddressChangeProposalHandler,
+			lscosmosclient.EstakeFeeAddressChangeProposalHandler,
 			lscosmosclient.AllowListValidatorSetChangeProposalHandler,
 		),
 	),

@@ -7,7 +7,7 @@ import (
 	capabilitykeeper "github.com/cosmos/cosmos-sdk/x/capability/keeper"
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
 
-	"github.com/elysiumOne/elysiumCore/v8/app/keepers"
+	"github.com/merlin-network/elysiumCore/v8/app/keepers"
 )
 
 type UpgradeHandlerArgs struct {

@@ -11,8 +11,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/server"
 	servercmd "github.com/cosmos/cosmos-sdk/server/cmd"
 
-	"github.com/elysiumOne/elysiumCore/v8/app"
-	"github.com/elysiumOne/elysiumCore/v8/cmd/elysiumCore/cmd"
+	"github.com/merlin-network/elysiumCore/v8/app"
+	"github.com/merlin-network/elysiumCore/v8/cmd/elysiumCore/cmd"
 )
 
 func main() {

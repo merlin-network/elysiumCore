@@ -11,7 +11,7 @@ import (
 	sdkslashing "github.com/cosmos/cosmos-sdk/x/slashing"
 	sdkstaking "github.com/cosmos/cosmos-sdk/x/staking"
 
-	"github.com/elysiumOne/elysiumCore/v8/app/params"
+	"github.com/merlin-network/elysiumCore/v8/app/params"
 )
 
 // MakeEncodingConfig creates an EncodingConfig for testing

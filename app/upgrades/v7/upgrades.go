@@ -5,7 +5,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/module"
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
 
-	"github.com/elysiumOne/elysiumCore/v8/app/upgrades"
+	"github.com/merlin-network/elysiumCore/v8/app/upgrades"
 )
 
 func CreateUpgradeHandler(args upgrades.UpgradeHandlerArgs) upgradetypes.UpgradeHandler {

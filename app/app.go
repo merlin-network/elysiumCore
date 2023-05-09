@@ -42,7 +42,7 @@ import (
 	slashingtypes "github.com/persistenceOne/persistence-sdk/v2/x/lsnative/slashing/types"
 	"github.com/persistenceOne/persistence-sdk/v2/x/lsnative/staking"
 	stakingtypes "github.com/persistenceOne/persistence-sdk/v2/x/lsnative/staking/types"
-	lscosmostypes "github.com/persistenceOne/pstake-native/v2/x/lscosmos/types"
+	lscosmostypes "github.com/persistenceOne/estake-native/v2/x/lscosmos/types"
 	"github.com/rakyll/statik/fs"
 	abcitypes "github.com/tendermint/tendermint/abci/types"
 	tendermintjson "github.com/tendermint/tendermint/libs/json"
@@ -51,10 +51,10 @@ import (
 	tendermintproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	tendermintdb "github.com/tendermint/tm-db"
 
-	"github.com/elysiumOne/elysiumCore/v8/app/keepers"
-	appparams "github.com/elysiumOne/elysiumCore/v8/app/params"
-	"github.com/elysiumOne/elysiumCore/v8/app/upgrades"
-	v8 "github.com/elysiumOne/elysiumCore/v8/app/upgrades/v8"
+	"github.com/merlin-network/elysiumCore/v8/app/keepers"
+	appparams "github.com/merlin-network/elysiumCore/v8/app/params"
+	"github.com/merlin-network/elysiumCore/v8/app/upgrades"
+	v8 "github.com/merlin-network/elysiumCore/v8/app/upgrades/v8"
 )
 
 var (

@@ -65,7 +65,7 @@ started.
 ### Before you begin
 
 - [Install Golang](https://golang.org/doc/install)
-- [Install ElysiumCore](https://github.com/elysiumOne/elysiumCore#installation-steps)
+- [Install ElysiumCore](https://github.com/merlin-network/elysiumCore#installation-steps)
 
 Verify that **elysiumCore** is installed correctly with the following command:
 
@@ -95,7 +95,7 @@ indicates **elysiumCore** to use your Ledger to seed the account.
 elysiumCore keys add <keyName> --ledger
 
 ➜ NAME: TYPE: ADDRESS:     PUBKEY:
-<keyName> ledger elysium1... elysiumpub1...
+<keyName> ledger did:fury:e1... elysiumpub1...
 ```
 
 Elysium uses HD wallets. This means you can setup multiple accounts using the same Ledger seed. To create another
@@ -131,7 +131,7 @@ elysiumCore query staking validators --node https://rpc.core.elysium.one:443 --c
 
 ::: **Tip**
 To run your own full node
-locally [read more here.](https://github.com/elysiumOne/elysiumCore#initialize-a-new-chain-and-start-node).
+locally [read more here.](https://github.com/merlin-network/elysiumCore#initialize-a-new-chain-and-start-node).
 :::
 
 ### Send a transaction
@@ -172,7 +172,7 @@ the ones with `TYPE ledger`) with this command:
 elysiumCore keys list
 
 ➜ NAME:   TYPE:  ADDRESS:        PUBKEY:
-<keyName> ledger elysium1... elysiumpub1...
+<keyName> ledger did:fury:e1... elysiumpub1...
 ```
 
 ### Further documentation

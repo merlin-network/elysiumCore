@@ -68,14 +68,14 @@ import (
 	slashingtypes "github.com/persistenceOne/persistence-sdk/v2/x/lsnative/slashing/types"
 	stakingkeeper "github.com/persistenceOne/persistence-sdk/v2/x/lsnative/staking/keeper"
 	stakingtypes "github.com/persistenceOne/persistence-sdk/v2/x/lsnative/staking/types"
-	"github.com/persistenceOne/pstake-native/v2/x/lscosmos"
-	lscosmoskeeper "github.com/persistenceOne/pstake-native/v2/x/lscosmos/keeper"
-	lscosmostypes "github.com/persistenceOne/pstake-native/v2/x/lscosmos/types"
+	"github.com/persistenceOne/estake-native/v2/x/lscosmos"
+	lscosmoskeeper "github.com/persistenceOne/estake-native/v2/x/lscosmos/keeper"
+	lscosmostypes "github.com/persistenceOne/estake-native/v2/x/lscosmos/types"
 	tmos "github.com/tendermint/tendermint/libs/os"
 
 	oraclekeeper "github.com/persistenceOne/persistence-sdk/v2/x/oracle/keeper"
 	oracletypes "github.com/persistenceOne/persistence-sdk/v2/x/oracle/types"
-	"github.com/elysiumOne/elysiumCore/v8/wasmbindings"
+	"github.com/merlin-network/elysiumCore/v8/wasmbindings"
 
 	// unnamed import of statik for swagger UI support
 	_ "github.com/cosmos/cosmos-sdk/client/docs/statik"

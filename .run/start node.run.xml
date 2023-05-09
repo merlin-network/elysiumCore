@@ -5,7 +5,7 @@
     <go_parameters value="-i" />
     <parameters value="start" />
     <kind value="FILE" />
-    <package value="github.com/elysiumOne/elysiumCore" />
+    <package value="github.com/merlin-network/elysiumCore" />
     <directory value="$PROJECT_DIR$/" />
     <filePath value="$PROJECT_DIR$/cmd/elysiumCore/main.go" />
     <output_directory value="$PROJECT_DIR$/build" />

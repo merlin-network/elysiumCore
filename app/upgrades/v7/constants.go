@@ -3,7 +3,7 @@ package v7
 import (
 	store "github.com/cosmos/cosmos-sdk/store/types"
 
-	"github.com/elysiumOne/elysiumCore/v8/app/upgrades"
+	"github.com/merlin-network/elysiumCore/v8/app/upgrades"
 )
 
 const (

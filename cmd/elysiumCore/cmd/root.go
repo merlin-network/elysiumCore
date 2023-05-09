@@ -32,8 +32,8 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/elysiumOne/elysiumCore/v8/app"
-	"github.com/elysiumOne/elysiumCore/v8/app/params"
+	"github.com/merlin-network/elysiumCore/v8/app"
+	"github.com/merlin-network/elysiumCore/v8/app/params"
 )
 
 const flagInvalidCheckPeriod = "invalid-check-period"

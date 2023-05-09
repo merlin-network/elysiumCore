@@ -6,10 +6,10 @@ import (
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
 	icaMigrations "github.com/cosmos/ibc-go/v6/modules/apps/27-interchain-accounts/controller/migrations/v6"
 	oracletypes "github.com/persistenceOne/persistence-sdk/v2/x/oracle/types"
-	lscosmostypes "github.com/persistenceOne/pstake-native/v2/x/lscosmos/types"
+	lscosmostypes "github.com/persistenceOne/estake-native/v2/x/lscosmos/types"
 
-	"github.com/elysiumOne/elysiumCore/v8/app/keepers"
-	"github.com/elysiumOne/elysiumCore/v8/app/upgrades"
+	"github.com/merlin-network/elysiumCore/v8/app/keepers"
+	"github.com/merlin-network/elysiumCore/v8/app/upgrades"
 )
 
 func setInitialMinCommissionRate(ctx sdk.Context, keepers *keepers.AppKeepers) {

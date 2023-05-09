@@ -1,4 +1,4 @@
-module github.com/elysiumOne/elysiumCore/v8
+module github.com/merlin-network/elysiumCore/v8
 
 go 1.19
 
@@ -10,7 +10,7 @@ require (
 	github.com/gogo/protobuf v1.3.3
 	github.com/gorilla/mux v1.8.0
 	github.com/persistenceOne/persistence-sdk/v2 v2.1.0-rc2
-	github.com/persistenceOne/pstake-native/v2 v2.1.0-rc0
+	github.com/persistenceOne/estake-native/v2 v2.1.0-rc0
 	github.com/prometheus/client_golang v1.14.0
 	github.com/rakyll/statik v0.1.7
 	github.com/spf13/cast v1.5.0

@@ -42,9 +42,9 @@ providers = [
 quote = "USD"
 
 [account]
-address = "elysium1fk57xyyxz89krc3nn5law2xekan84gufzagszw"
+address = "did:fury:e1fk57xyyxz89krc3nn5law2xekan84gufzagszw"
 chain_id = "testing"
-validator = "elysiumvaloper1fk57xyyxz89krc3nn5law2xekan84guftegdth"
+validator = "did:fury:evaloper1fk57xyyxz89krc3nn5law2xekan84guftegdth"
 
 [keyring]
 backend = "test"

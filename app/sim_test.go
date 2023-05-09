@@ -21,7 +21,7 @@ import (
 	"github.com/tendermint/tendermint/libs/rand"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/elysiumOne/elysiumCore/v8/app"
+	"github.com/merlin-network/elysiumCore/v8/app"
 )
 
 // SimAppChainID hardcoded chainID for simulation

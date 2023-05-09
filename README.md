@@ -1,6 +1,6 @@
 # elysiumCore
 
-[![LoC](https://tokei.rs/b1/github/elysiumOne/elysiumCore)](https://github.com/elysiumOne/elysiumCore)
+[![LoC](https://tokei.rs/b1/github/elysiumOne/elysiumCore)](https://github.com/merlin-network/elysiumCore)
 
 This project implements an application for the Elysium Core chain that all the other chains in the ecosystem connect
 to as a raised and open moderator for interoperability, shared security, and as a gateway to other ecosystems and
@@ -43,7 +43,7 @@ chains.
 * Clone git repository
 
 ```shell
-git clone https://github.com/elysiumOne/elysiumCore.git
+git clone https://github.com/merlin-network/elysiumCore.git
 ```
 
 * Checkout release tag
@@ -102,7 +102,7 @@ elysiumCore start
 > will create keys with coin-type 118(cosmos) and will only be supported by CLI and not by current or future wallets.
 
 * Install the Elysium application on the Ledger
-  device. [ref](https://github.com/elysiumOne/elysiumCore/blob/main/docs/resources/Ledger.md#install-the-elysium-ledger-application)
+  device. [ref](https://github.com/merlin-network/elysiumCore/blob/main/docs/resources/Ledger.md#install-the-elysium-ledger-application)
 * Connect the Ledger device to a system with elysiumCore binary and open the Elysium application on it.
 * Add key
 
@@ -136,8 +136,8 @@ elysiumCore version
 
 ## Test-nets
 
-* [test-core-1](https://github.com/elysiumOne/genesisTransactions/tree/master/test-core-1)
+* [test-core-1](https://github.com/merlin-network/genesisTransactions/tree/master/test-core-1)
 
 ## Main-net
 
-* [core-1](https://github.com/elysiumOne/genesisTransactions/tree/master/core-1)
+* [core-1](https://github.com/merlin-network/genesisTransactions/tree/master/core-1)
