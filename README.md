@@ -1,6 +1,6 @@
 # elysiumCore
 
-[![LoC](https://tokei.rs/b1/github/elysiumOne/elysiumCore)](https://github.com/merlin-network/elysiumCore)
+[![LoC](https://tokei.rs/b1/github/merlin-network/elysiumCore)](https://github.com/merlin-network/elysiumCore)
 
 This project implements an application for the Elysium Core chain that all the other chains in the ecosystem connect
 to as a raised and open moderator for interoperability, shared security, and as a gateway to other ecosystems and

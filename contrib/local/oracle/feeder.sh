@@ -8,7 +8,7 @@ mkdir -p $DIR
 cd $DIR
 
 ## Clone the oracle-feeder repo.
-git clone git@github.com:elysiumOne/oracle-feeder.git
+git clone git@github.com:merlin-network/oracle-feeder.git
 
 # Move into the oracle feeder directory
 cd $DIR/oracle-feeder

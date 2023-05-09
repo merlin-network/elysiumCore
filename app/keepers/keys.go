@@ -19,14 +19,14 @@ import (
 	ibcfeetypes "github.com/cosmos/ibc-go/v6/modules/apps/29-fee/types"
 	ibctransfertypes "github.com/cosmos/ibc-go/v6/modules/apps/transfer/types"
 	ibchost "github.com/cosmos/ibc-go/v6/modules/core/24-host"
-	epochstypes "github.com/persistenceOne/persistence-sdk/v2/x/epochs/types"
-	"github.com/persistenceOne/persistence-sdk/v2/x/halving"
-	interchainquerytypes "github.com/persistenceOne/persistence-sdk/v2/x/interchainquery/types"
-	distributiontypes "github.com/persistenceOne/persistence-sdk/v2/x/lsnative/distribution/types"
-	slashingtypes "github.com/persistenceOne/persistence-sdk/v2/x/lsnative/slashing/types"
-	stakingtypes "github.com/persistenceOne/persistence-sdk/v2/x/lsnative/staking/types"
-	oracletypes "github.com/persistenceOne/persistence-sdk/v2/x/oracle/types"
-	lscosmostypes "github.com/persistenceOne/estake-native/v2/x/lscosmos/types"
+	epochstypes "github.com/merlin-network/elysium-sdk/v2/x/epochs/types"
+	"github.com/merlin-network/elysium-sdk/v2/x/halving"
+	interchainquerytypes "github.com/merlin-network/elysium-sdk/v2/x/interchainquery/types"
+	distributiontypes "github.com/merlin-network/elysium-sdk/v2/x/lsnative/distribution/types"
+	slashingtypes "github.com/merlin-network/elysium-sdk/v2/x/lsnative/slashing/types"
+	stakingtypes "github.com/merlin-network/elysium-sdk/v2/x/lsnative/staking/types"
+	oracletypes "github.com/merlin-network/elysium-sdk/v2/x/oracle/types"
+	lscosmostypes "github.com/merlin-network/estake-native/v2/x/lscosmos/types"
 )
 
 func (appKeepers *AppKeepers) GenerateKeys() {
