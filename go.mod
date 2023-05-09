@@ -9,7 +9,7 @@ require (
 	github.com/cosmos/ibc-go/v6 v6.1.0
 	github.com/gogo/protobuf v1.3.3
 	github.com/gorilla/mux v1.8.0
-	github.com/merlin-network/elysium-sdk/v2 v2.0.1-elysium-rc0
+	github.com/merlin-network/elysium-sdk/v2 v2.1.0-elysium-rc0
 	github.com/merlin-network/estake-native/v2 v2.1.1-estake-rc0
 	github.com/prometheus/client_golang v1.14.0
 	github.com/rakyll/statik v0.1.7
