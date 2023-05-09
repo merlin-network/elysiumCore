@@ -1,5 +1,5 @@
 PROCESS = elysiumcore
-DOCKER_IMAGE_NAME = elysiumone/$(PROCESS)
+DOCKER_IMAGE_NAME = merlin-network/$(PROCESS)
 DOCKER_TAG_NAME = v6.0.0
 CONTAINER_NAME = container-$(PROCESS)
 DOCKER_FILE = Dockerfile

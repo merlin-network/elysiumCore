@@ -82,7 +82,7 @@ run-oracle-contract:
 # Docker variables
 DOCKER := $(shell which docker)
 
-DOCKER_IMAGE_NAME = elysiumone/elysiumcore
+DOCKER_IMAGE_NAME = merlin-network/elysiumcore
 DOCKER_TAG_NAME = latest
 DOCKER_CONTAINER := elysium-core-container
 DOCKER_ENV ?= \

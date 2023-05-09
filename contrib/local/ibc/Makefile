@@ -28,16 +28,16 @@ HERMES_TAG_NAME := 1.0.0-rc.1
 docker-build-gaiad:
 	$(DOCKER) buildx build ${DOCKER_ARGS} \
 		--build-arg GAIA_TAG_NAME=$(GAIA_TAG_NAME) \
-		-t elysiumone/gaiad:$(GAIA_TAG_NAME) \
+		-t merlin-network/gaiad:$(GAIA_TAG_NAME) \
 		. -f gaiad.Dockerfile
 
 docker-build-push-gaiad: docker-build-gaiad
-	$(DOCKER) push elysiumone/gaiad:$(GAIA_TAG_NAME)
+	$(DOCKER) push merlin-network/gaiad:$(GAIA_TAG_NAME)
 
 docker-build-hermes:
 	$(DOCKER) buildx build ${DOCKER_ARGS} \
-		-t elysiumone/hermes:$(HERMES_TAG_NAME) \
+		-t merlin-network/hermes:$(HERMES_TAG_NAME) \
 		. -f hermes.Dockerfile
 
 docker-build-push-hermes: docker-build-hermes
-	$(DOCKER) push elysiumone/hermes:$(HERMES_TAG_NAME)
+	$(DOCKER) push merlin-network/hermes:$(HERMES_TAG_NAME)
